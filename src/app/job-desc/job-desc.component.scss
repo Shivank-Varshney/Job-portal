@@ -41,6 +41,13 @@
     font-size: 16px;
     color: #333;
   }
+  .thanks_text {
+    font-family: "Nunito-Bold", "sans-serif";
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+    margin: 20px 0 0 0;
+  }
   .apply_btn {
     font-family: "Nunito-Bold", "sans-serif";
     background-color: #0d47a1;
@@ -49,8 +56,34 @@
     text-align: center;
     text-transform: capitalize;
     display: inline-block;
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
     border-radius: 4px;
+    &:hover {
+      background-color: #0a3677;
+    }
+  }
+  .job_apply_heading {
+    font-family: "Nunito-Bold", "sans-serif";
+    font-size: 24px;
+    color: #0d47a1;
+    text-transform: capitalize;
+    margin: 60px 0 0 0;
+    span {
+      color: #c3002f;
+    }
+  }
+  .form-label {
+    font-family: "Nunito-Light", "sans-serif";
+    font-size: 14px;
+    text-transform: capitalize;
+    span {
+      color: #c3002f;
+    }
+  }
+  .form-control {
+    box-shadow: none;
+    font-family: "Nunito-Regular", "sans-serif";
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -78,10 +111,23 @@
     .desc {
       font-size: 12px;
     }
+    .thanks_text {
+      font-size: 12px;
+    }
     .apply_btn {
       font-size: 14px;
       padding: 4px 20px;
-      margin: 40px 0 0 0;
+      margin: 10px 0 0 0;
+    }
+    .job_apply_heading {
+      font-size: 18px;
+      margin: 10px 0 0 0;
+    }
+    .form-label {
+      font-size: 12px;
+    }
+    .form-control {
+      font-size: 12px;
     }
   }
 }
