@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Nunito-ExtraBold";
+  src: url(./fonts/NunitoSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url(./fonts/NunitoSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Nunito-SemiBold";
+  src: url(./fonts/NunitoSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url(./fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito-Light";
+  src: url(./fonts/NunitoSans-Light.ttf);
+}

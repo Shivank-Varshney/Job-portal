@@ -1,0 +1,129 @@
+#navbar {
+    background-color: #0d47a1;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    .logo {
+      font-family: "Nunito-ExtraBold", "sans-serif";
+      font-size: 32px;
+      color: #fff;
+      font-weight: bolder;
+      text-transform: capitalize;
+      cursor: pointer;
+      display: inline;
+    }
+    .dashboard-icon {
+      font-size: 32px;
+      color: #fff;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      i {
+        cursor: pointer;
+      }
+    }
+  }
+  @media screen and (max-width: 420px) {
+    #navbar {
+      height: 60px;
+      .logo {
+        font-size: 24px;
+      }
+      .dashboard-icon {
+        font-size: 22px;
+      }
+    }
+  }
+  
+  // Login Popup
+  #Popup {
+    background: rgba(13, 71, 161, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 2px solid #ffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin: -250px 0 0 -250px;
+    padding: 20px;
+    .popup_inner {
+      background-color: #0d47a1;
+      width: 100%;
+      height: 100%;
+      padding: 40px;
+      .heading {
+        font-family: "Nunito-ExtraBold", "sans-serif";
+        color: #fff;
+        text-align: center;
+        font-size: 42px;
+        margin: 0 0 40px 0;
+        text-transform: capitalize;
+      }
+      .form-label {
+        font-family: "Nunito-SemiBold", "sans-serif";
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #fff;
+        span {
+          color: #c3002f;
+          font-size: 18px;
+        }
+      }
+      .form-control {
+        box-shadow: none;
+        font-size: 16px;
+      }
+      .form-text {
+        color: #fff;
+        margin: 0 0 30px 0;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .login_btn {
+        font-family: "Nunito-Bold", "sans-serif";
+        box-shadow: none;
+        padding: 5px 40px;
+        background-color: #c3002f;
+        color: #fff;
+        text-transform: capitalize;
+      }
+      .close_btn {
+        font-family: "Nunito-Bold", "sans-serif";
+        box-shadow: none;
+        padding: 5px 40px;
+        color: #fff;
+        text-transform: capitalize;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    #Popup {
+      width: 320px;
+      height: 400px;
+      margin: -200px 0 0 -160px;
+      padding: 10px;
+      .popup_inner {
+        padding: 20px;
+        .heading {
+          font-size: 28px;
+        }
+        .form-label {
+          font-size: 14px;
+          span {
+            font-size: 16px;
+          }
+        }
+        .form-control {
+          font-size: 12px;
+        }
+        .form-text {
+          margin: 0 0 20px 0;
+          font-size: 14px;
+        }
+      }
+    }
+  }

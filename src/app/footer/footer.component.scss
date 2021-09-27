@@ -1,0 +1,32 @@
+// Footer Section
+// Footer Section
+#footer {
+  background-color: #0d47a1;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .logo {
+    font-family: "Nunito-ExtraBold", "sans-serif";
+    font-size: 32px;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  .social_links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    .social_icon {
+      color: #fff;
+      font-size: 20px;
+      margin: 0 10px;
+      &:hover {
+        color: #c3002f;
+      }
+    }
+  }
+}

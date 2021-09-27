@@ -1,0 +1,157 @@
+// home body Sectiion
+#home_body {
+  background-color: #eaf1f3;
+  min-height: 100vh;
+  .heading {
+    font-family: "Nunito-ExtraBold", "sans-serif";
+    font-size: 32px;
+    color: #c3002f;
+  }
+  .sub_heading {
+    font-family: "Nunito-Bold", "sans-serif";
+    font-size: 24px;
+    color: #0d47a1;
+    margin: 0 0 40px 0;
+  }
+  .text {
+    font-family: "Nunito-Regular", "sans-serif";
+    font-size: 16px;
+  }
+
+  // Job description
+  #job_desc {
+    .job_heading {
+      font-family: "Nunito-Bold", "sans-serif";
+      color: #000;
+      font-size: 32px;
+      margin: 60px 0 0 0;
+    }
+    .jobs_available {
+      .jobs {
+        .job_type {
+          font-family: "Nunito-Bold", "sans-serif";
+          font-size: 20px;
+          color: #c3002f;
+          margin: 0 0 20px 0;
+        }
+        .job {
+          .job_designation {
+            font-family: "Nunito-ExtraBold", "sans-serif";
+            font-size: 26px;
+            text-transform: capitalize;
+            color: #0d47a1;
+          }
+          .company_location {
+            font-family: "Nunito-SemiBold", "sans-serif";
+            font-size: 20px;
+            text-transform: capitalize;
+          }
+          .sort_desc {
+            font-family: "Nunito-Regular", "sans-serif";
+            font-size: 15px;
+          }
+          .read_more {
+            font-family: "Nunito-SemiBold", "sans-serif";
+            background-color: #0d47a1;
+            color: #fff;
+            padding: 6px 20px;
+            display: inline-block;
+            margin: 20px 0 40px 0;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .filters {
+      .filter_heading {
+        font-family: "Nunito-Bold", "sans-serif";
+        font-size: 20px;
+        color: #c3002f;
+        margin: 0 0 20px 0;
+      }
+      .form-label {
+        font-family: "Nunito-SemiBold", "sans-serif";
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #0d47a1;
+      }
+      .form-control {
+        font-family: "Nunito-SemiBold", "sans-serif";
+        font-size: 14px;
+        box-shadow: none;
+        border: none;
+        border-bottom: 2px solid #0d47a1;
+        border-radius: 0;
+        padding: 10px 0;
+      }
+      .search_btn {
+        font-family: "Nunito-SemiBold", "sans-serif";
+        box-shadow: none;
+        background-color: #0d47a1;
+        color: #fff;
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  #home_body {
+    .heading {
+      font-size: 24px;
+    }
+    .sub_heading {
+      font-size: 18px;
+      margin: 0 0 20px 0;
+    }
+    .text {
+      font-size: 14px;
+    }
+
+    // Job description
+    #job_desc {
+      .job_heading {
+        font-size: 24px;
+        margin: 20px 0 0 0;
+      }
+      .jobs_available {
+        .jobs {
+          .job_type {
+            font-size: 18px;
+            margin: 0 0 10px 0;
+          }
+          .job {
+            .job_designation {
+              font-size: 20px;
+            }
+            .company_location {
+              font-size: 16px;
+            }
+            .sort_desc {
+              font-size: 12px;
+            }
+            .read_more {
+              font-size: 12px;
+              padding: 4px 20px;
+              margin: 10px 0 40px 0;
+            }
+          }
+        }
+      }
+      .filters {
+        margin: 0 0 50px 0;
+        .filter_heading {
+          font-size: 18px;
+          margin: 0 0 20px 0;
+        }
+        .form-label {
+          font-size: 12px;
+        }
+        .form-control {
+          font-size: 12px;
+          border-bottom: 2px solid #0d47a1;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}

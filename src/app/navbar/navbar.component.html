@@ -1,0 +1,49 @@
+<!-- Navbar Section -->
+<header id="navbar">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col">
+          <div class="logo" routerLink="/">job portal</div>
+        </div>
+        <div class="col dashboard-icon">
+          <i class="fas fa-user" (click)="openPopup()"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Login Popup Section -->
+<div id="Popup" [ngStyle]="{ display: dispOption }">
+    <div class="popup_inner">
+      <div class="heading">Login</div>
+      <form>
+        <div class="mb-2">
+          <label for="InputName" class="form-label">username<span>*</span></label>
+          <input
+            type="text"
+            class="form-control"
+            id="InputName"
+            placeholder="Enter user name"
+          />
+        </div>
+        <div class="mb-2">
+          <label for="InputNumber" class="form-label"
+            >password<span>*</span></label
+          >
+          <input
+            type="tel"
+            class="form-control"
+            id="InputNumber"
+            placeholder="Enter your password"
+          />
+          <div class="form-text">forget password?</div>
+        </div>
+        <button type="submit" class="btn login_btn" routerLink="/dashboard">
+          log in
+        </button>
+        <div class="btn close_btn" (click)="closePopup()">
+          close
+        </div>
+      </form>
+    </div>
+  </div>
